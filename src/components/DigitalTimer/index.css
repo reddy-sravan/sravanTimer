@@ -1,0 +1,107 @@
+.main-container {
+  background-image: linear-gradient(to right, #fff, #cffcf1, #defafe);
+  min-height: 100vw;
+  padding: 10px;
+  background-size: cover;
+}
+
+.heading {
+  font-size: 2rem;
+  font-family: Roboto;
+  text-align: center;
+}
+
+.clock-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/digital-timer-elapsed-bg.png');
+  background-repeat: no-repeat;
+  background-position: left;
+  height: 500px;
+  width: 700px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+.clock {
+  background-color: #fff;
+  height: 200px;
+  width: 200px;
+  border-radius: 50%;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.c-head {
+  color: #00d9f5;
+  font-size: 30px;
+  font-weight: 800;
+  letter-spacing: 3px;
+  margin-block-end: 0em;
+  margin-block-start: 0em;
+}
+.c-para {
+  font-size: 20px;
+  font-family: Roboto;
+}
+
+.main-data {
+  display: flex;
+}
+
+.right {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  /* background-color: green; */
+}
+.minusPlusCon {
+  grid-column-start: 1;
+  grid-column-end: 3;
+  /* background-color: red; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.data {
+  display: flex;
+  align-items: center;
+}
+img {
+  height: 50px;
+  width: 50px;
+}
+.data1 {
+  display: flex;
+  justify-content: center;
+  /* background-color: wheat; */
+  align-items: flex-end;
+
+  cursor: pointer;
+  padding-left: 25%;
+  margin-right: 100px;
+  width: 100%;
+}
+.data2 {
+  display: flex;
+  justify-content: center;
+  /* background-color: wheat; */
+  align-items: flex-end;
+
+  cursor: pointer;
+  padding-right: 25%;
+  width: 100%;
+}
+button {
+  background-color: transparent;
+  border: none;
+  font-size: 20px;
+  height: 60px;
+  width: 60px;
+}
+.data-p {
+  background-image: linear-gradient(to right, rgb(35, 184, 79), #129e92);
+  padding: 6px;
+  width: 50px;
+  text-align: center;
+  font-weight: 500;
+}
